@@ -17,14 +17,14 @@ export default function Header() {
             </p>
             <div className="buttonContainer">
                 <a href="#">
-                    <Button
-                        src={linkedinIcon}
-                        text="Email"
-                        cssClass="btnWhite"
-                    />
+                    <Button icon={emailIcon} text="Email" cssClass="btnWhite" />
                 </a>
                 <a href="#">
-                    <Button text="LinkedIn" cssClass="btnBlue" />
+                    <Button
+                        icon={linkedinIcon}
+                        text="LinkedIn"
+                        cssClass="btnBlue"
+                    />
                 </a>
             </div>
         </header>

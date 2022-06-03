@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Body() {
     return (
-        <body className="mainBody">
+        <div className="mainBody">
             <h1>About</h1>
             <p>
                 About text will go here. About text will go here. About text
@@ -13,6 +13,6 @@ export default function Body() {
                 About text will go here. About text will go here. About text
                 will go here. About text will go here. About text will go here.
             </p>
-        </body>
+        </div>
     );
 }

@@ -1,3 +1,11 @@
+body {
+    background-color: #23252c;
+}
+
+.borderBox {
+    padding: 5% 20%;
+}
+
 .header {
     background-color: #1a1b21;
 }
@@ -6,9 +14,8 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 70%;
     padding-top: 30px;
-    width: 317px;
 }
 
 .header--name {
@@ -55,8 +62,16 @@
     justify-content: center;
 }
 
+.buttonContainer > a {
+    text-decoration: none;
+}
+
 .btnBlue {
     background-color: #5093e2;
+    color: white;
+}
+
+.btnWhite {
 }
 
 button {
@@ -65,7 +80,12 @@ button {
     margin: 0, 15px;
     margin-top: 15px;
     margin-left: 15px;
-    outline: none;
+    border: none;
+    display: flex;
+}
+
+button > img {
+    height: 15px;
 }
 
 .mainBody {
@@ -75,6 +95,7 @@ button {
     font-family: Inter;
     margin-left: 0;
     margin-right: 0;
+    padding-bottom: 30px;
 }
 
 .mainBody > h1 {
@@ -85,17 +106,20 @@ button {
 
 .mainBody > p {
     font-size: 11px;
-    margin-left: 90px;
-    margin-right: 90px;
+    margin: 0 35px;
 }
 
 .footer {
     display: flex;
     justify-content: center;
+    background-color: white;
+}
+
+.footer--icon {
+    margin: 0 15px 0 15px;
 }
 
 .footer--icon > img {
     height: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 10px;
 }
