@@ -1,3 +1,49 @@
-h1 {
-    color: blue;
+.header {
+    background-color: #1a1b21;
+}
+
+.header--img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.header--name {
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    font-family: Inter, sans-serif;
+}
+
+.header--title {
+    text-align: center;
+    font-family: Inter, sans-serif;
+    color: #f3bf99;
+    font-weight: 300;
+}
+
+.header--website {
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    font-family: Inter, sans-serif;
+}
+
+.btnBlue {
+    background-color: blue;
+}
+
+button {
+    border-radius: 15%;
+}
+
+.footer {
+    display: flex;
+}
+
+.footer--icon > img {
+    height: 30px;
 }
