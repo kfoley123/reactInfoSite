@@ -7,19 +7,19 @@ import emailIcon from "../images/emailIcon.png";
 export default function Header() {
     return (
         <header className="header">
-            <img src={placeholderImage} className="header--img" />
+            <img src={placeholderImage} className="header--img" alt="" />
             <h1 className="header--name">Kortney Foley</h1>
             <h3 className="header--title">Frontend Developer</h3>
             <p className="header--website">
-                <a className="websiteLink" href="#">
+                <a className="websiteLink" href="https://google.ca">
                     website
                 </a>
             </p>
             <div className="buttonContainer">
-                <a href="#">
+                <a href="https://google.ca">
                     <Button icon={emailIcon} text="Email" cssClass="btnWhite" />
                 </a>
-                <a href="#">
+                <a href="https://google.ca">
                     <Button
                         icon={linkedinIcon}
                         text="LinkedIn"
