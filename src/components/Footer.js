@@ -6,10 +6,10 @@ import linkedinIcon from "../images/LinkedinIcon.webp";
 export default function Footer() {
     return (
         <footer className="footer">
-            <a href="https://google.ca">
+            <a href="https://github.com/kfoley123">
                 <SocialIcon iconURL={githubIcon} />
             </a>
-            <a href="https://google.ca">
+            <a href="https://www.linkedin.com/in/kortney-foley-2b218014b/">
                 <SocialIcon iconURL={linkedinIcon} />
             </a>
         </footer>

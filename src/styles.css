@@ -69,9 +69,7 @@ body {
 .btnBlue {
     background-color: #5093e2;
     color: white;
-}
-
-.btnWhite {
+    margin-left: 20px;
 }
 
 button {
