@@ -16,16 +16,19 @@ export default function Header() {
                 </a>
             </p>
             <div className="buttonContainer">
-                <a href="mailto:kortney_foley@hotmail.com">
-                    <Button icon={emailIcon} text="Email" cssClass="btnWhite" />
-                </a>
-                <a href="https://www.linkedin.com/in/kortney-foley-2b218014b/">
-                    <Button
-                        icon={linkedinIcon}
-                        text="LinkedIn"
-                        cssClass="btnBlue"
-                    />
-                </a>
+                <Button
+                    icon={emailIcon}
+                    text="Email"
+                    cssClass="btnWhite"
+                    webAddress="mailto:kortney_foley@hotmail.com"
+                />
+
+                <Button
+                    icon={linkedinIcon}
+                    text="LinkedIn"
+                    cssClass="btnBlue"
+                    webAddress="https://www.linkedin.com/in/kortney-foley-2b218014b/"
+                />
             </div>
         </header>
     );

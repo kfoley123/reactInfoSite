@@ -13,8 +13,8 @@ export default function Body() {
             <h1>Interests</h1>
             <p>
                 I am interested in travel, all things crafty but particularly
-                sewing. I'm into all things nerdy and love video games. Matcha
-                keeps me going.
+                sewing and clothing design. I'm into all things nerdy and love
+                video games. Matcha keeps me going.
             </p>
         </div>
     );

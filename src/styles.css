@@ -65,26 +65,29 @@ body {
 
 .buttonContainer > a {
     text-decoration: none;
+    margin: 0 15px;
 }
 
 .btnBlue {
     background-color: #5093e2;
     color: white;
-    margin-left: 20px;
 }
 
 button {
     border-radius: 6px;
     font-family: Inter;
-    margin: 0, 15px;
-    margin-top: 15px;
-    margin-left: 15px;
     border: none;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 140px;
+    font-size: large;
 }
 
 button > img {
-    height: 15px;
+    height: 30px;
+    margin-right: 5px;
 }
 
 .mainBody {
@@ -119,6 +122,6 @@ button > img {
 }
 
 .footer--icon > img {
-    height: 30px;
+    height: 50px;
     padding: 10px;
 }
