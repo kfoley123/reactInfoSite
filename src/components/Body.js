@@ -5,13 +5,16 @@ export default function Body() {
         <div className="mainBody">
             <h1>About</h1>
             <p>
-                About text will go here. About text will go here. About text
-                will go here. About text will go here. About text will go here.
+                I'm a self-taught front end developer in the process of
+                expanding my knowledge to become full stack. I believe that
+                functionaility and form should co-exist so that not only does
+                everything work, it looks great at the same time.
             </p>
             <h1>Interests</h1>
             <p>
-                About text will go here. About text will go here. About text
-                will go here. About text will go here. About text will go here.
+                I am interested in travel, all things crafty but particularly
+                sewing. I'm into all things nerdy and love video games. Matcha
+                keeps me going.
             </p>
         </div>
     );
